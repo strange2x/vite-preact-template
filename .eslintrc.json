@@ -1,0 +1,30 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended"],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "plugins": ["@typescript-eslint", "prettier"],
+  "rules": {
+    "prettier/prettier": "error",
+    "linebreak-style": ["error", "unix"],
+    "quotes": ["error", "single"],
+    "semi": "error",
+    "for-direction": "error",
+    "no-const-assign": "error",
+    "no-console": "error",
+    "no-duplicate-imports": "error",
+    "no-func-assign": "error",
+    "no-self-assign": "error",
+    "no-unsafe-negation": "error",
+    "no-empty": "error",
+    "no-undef": "error",
+    "yoda": "error",
+    "jsx-quotes": ["error", "prefer-single"]
+  }
+}
